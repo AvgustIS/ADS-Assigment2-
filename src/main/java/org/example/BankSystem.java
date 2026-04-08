@@ -11,13 +11,13 @@ public class BankSystem {
     private Scanner scanner = new Scanner(System.in);
 
     public void start() {
-        System.out.println("=== Banking System Launched ===\n");
+        System.out.println("Banking System Launched\n");
 
         while (true) {
             System.out.println("1 - Enter Bank");
             System.out.println("2 - Enter ATM");
             System.out.println("3 - Admin Area");
-            System.out.println("4 - Task 6: Physical Array");
+            System.out.println("4 - Physical Array");
             System.out.println("5 - Exit");
             System.out.print("Choose: ");
             int choice = scanner.nextInt();
@@ -39,7 +39,7 @@ public class BankSystem {
 
     private void bankMenu() {
         while (true) {
-            System.out.println("\n=== Bank Menu ===");
+            System.out.println("\nBank Menu");
             System.out.println("1. Submit account opening request");
             System.out.println("2. Deposit money");
             System.out.println("3. Withdraw money");
@@ -132,12 +132,12 @@ public class BankSystem {
     }
 
     private String getBillName() {
-        System.out.print("Bill name (e.g. Electricity Bill): ");
+        System.out.print("Bill name: ");
         return scanner.nextLine();
     }
 
     private void task6PhysicalArray() {
-        System.out.println("\n=== Task 6: Physical Data Structures (Array) ===");
+        System.out.println("\n Physical Data Structures");
         BankAccount[] array = new BankAccount[3];
         array[0] = new BankAccount("BA1001", "Ali", 150000);
         array[1] = new BankAccount("BA1002", "Sara", 220000);
@@ -147,6 +147,6 @@ public class BankSystem {
         for (int i = 0; i < array.length; i++) {
             System.out.println((i + 1) + ". " + array[i]);
         }
-        System.out.println("Task 6 completed successfully!\n");
+        System.out.println("completed successfully!\n");
     }
 }

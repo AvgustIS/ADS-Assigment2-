@@ -8,7 +8,7 @@ public class BillQueueManager {
 
     public void addBill(String billName) {
         billQueue.add(billName);
-        System.out.println("The account has been added.: " + billName);
+        System.out.println("The account has been added: " + billName);
     }
 
     public void processNextBill() {
