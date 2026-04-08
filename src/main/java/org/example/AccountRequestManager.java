@@ -20,7 +20,7 @@ public class AccountRequestManager {
             return;
         }
         BankAccount processed = requests.poll();
-        accountManager.addAccount(processed);  // передаём в основной LinkedList
+        accountManager.addAccount(processed);
         System.out.println("Request processed. Invoice " + processed.getUsername() + " added to the database.");
     }
 
