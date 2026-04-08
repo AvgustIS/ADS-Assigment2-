@@ -61,7 +61,7 @@ public class BankSystem {
     }
 
     private void atmMenu() {
-        System.out.println("\n=== ATM Menu ===");
+        System.out.println("\nATM Menu");
         System.out.println("1. Balance enquiry");
         System.out.println("2. Withdraw");
         System.out.println("3. Back");
@@ -79,7 +79,7 @@ public class BankSystem {
 
     private void adminMenu() {
         while (true) {
-            System.out.println("\n=== Admin Menu ===");
+            System.out.println("\n Admin Menu ");
             System.out.println("1. View account requests queue");
             System.out.println("2. Process next request");
             System.out.println("3. View bill payment queue");
