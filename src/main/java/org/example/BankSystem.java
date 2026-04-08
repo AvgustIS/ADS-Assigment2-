@@ -27,7 +27,7 @@ public class BankSystem {
                 case 1 -> bankMenu();
                 case 2 -> atmMenu();
                 case 3 -> adminMenu();
-                case 4 -> task6PhysicalArray();
+                case 4 -> PhysicalArray();
                 case 5 -> {
                     System.out.println("Goodbye!");
                     return;
@@ -136,7 +136,7 @@ public class BankSystem {
         return scanner.nextLine();
     }
 
-    private void task6PhysicalArray() {
+    private void PhysicalArray() {
         System.out.println("\n Physical Data Structures");
         BankAccount[] array = new BankAccount[3];
         array[0] = new BankAccount("BA1001", "Ali", 150000);
